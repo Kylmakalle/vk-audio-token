@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  php-vk-refresh:
+    build: src
+    command: "php -S 0.0.0.0:8080 -t /src/cli"
+    tty: true
